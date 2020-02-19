@@ -1,0 +1,9 @@
+C:\Users\Jola\source\repos\Shepp-Logan phantom\Shepp-Logan phantom\bin\Debug\Shepp-Logan phantom.exe.config
+C:\Users\Jola\source\repos\Shepp-Logan phantom\Shepp-Logan phantom\bin\Debug\Shepp-Logan phantom.exe
+C:\Users\Jola\source\repos\Shepp-Logan phantom\Shepp-Logan phantom\bin\Debug\Shepp-Logan phantom.pdb
+C:\Users\Jola\source\repos\Shepp-Logan phantom\Shepp-Logan phantom\obj\Debug\Shepp-Logan phantom.csprojAssemblyReference.cache
+C:\Users\Jola\source\repos\Shepp-Logan phantom\Shepp-Logan phantom\obj\Debug\Shepp_Logan_phantom.Form1.resources
+C:\Users\Jola\source\repos\Shepp-Logan phantom\Shepp-Logan phantom\obj\Debug\Shepp_Logan_phantom.Properties.Resources.resources
+C:\Users\Jola\source\repos\Shepp-Logan phantom\Shepp-Logan phantom\obj\Debug\Shepp-Logan phantom.csproj.GenerateResource.cache
+C:\Users\Jola\source\repos\Shepp-Logan phantom\Shepp-Logan phantom\obj\Debug\Shepp-Logan phantom.exe
+C:\Users\Jola\source\repos\Shepp-Logan phantom\Shepp-Logan phantom\obj\Debug\Shepp-Logan phantom.pdb
