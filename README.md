@@ -1,6 +1,6 @@
 # Shepp-Logan Phantom
 
-<b>Shepp-Logan</b> phantom is  is a standard test image created by Larry Shepp and Benjamin F. Logan for their 1974 paper The Fourier Reconstruction of a Head Section.[1] It serves as the model of a human head in the development and testing of image reconstruction algorithms.
+<b>Shepp-Logan</b> phantom is  is a standard test image created by Larry Shepp and Benjamin F. Logan for their 1974 paper The Fourier Reconstruction of a Head Section.It serves as the model of a human head in the development and testing of image reconstruction algorithms.
 
 I know how difficult it is to implement this model, which is why I present the simplest solution. Enjoy!
 I do some kind of filtration of real model, so this model doesn't count anything. Just filtrate. 
