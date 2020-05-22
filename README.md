@@ -1,7 +1,7 @@
 # Shepp-Logan Phantom
 
 I know how difficult it is to implement this model, which is why I present the simplest solution. Enjoy!
-I some kind of filtration of real model, so this model doesn't count anything. Just filtrate. 
+I do some kind of filtration of real model, so this model doesn't count anything. Just filtrate. 
 You can create your own model based on the table:
 
 |Ellipse  | Center         |  Major Axis  | Minor Axis  | Theta | Gray level  |
