@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-24T20:05:30.846Z" agent="5.0 (Windows)" etag="jQMwYWDo34wXWfeg5jkI" version="13.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-24T20:08:51.422Z" agent="5.0 (Windows)" etag="wo9p10YPdP4W2Y4qepTG" version="13.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="867" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,8 +88,44 @@
         <mxCell id="CkzPJ7ueoi_SJVYN6UO0-39" value="Filtracja w dziedzinie częstotliwości" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="890" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CkzPJ7ueoi_SJVYN6UO0-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CkzPJ7ueoi_SJVYN6UO0-41" target="CkzPJ7ueoi_SJVYN6UO0-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CkzPJ7ueoi_SJVYN6UO0-41" value="Rekonstrukcja z filtrowanego sinogramu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkzPJ7ueoi_SJVYN6UO0-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CkzPJ7ueoi_SJVYN6UO0-43" target="CkzPJ7ueoi_SJVYN6UO0-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CkzPJ7ueoi_SJVYN6UO0-43" value="Odwrotna Transformata Fouriera" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkzPJ7ueoi_SJVYN6UO0-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CkzPJ7ueoi_SJVYN6UO0-45" target="CkzPJ7ueoi_SJVYN6UO0-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CkzPJ7ueoi_SJVYN6UO0-45" value="Ostateczna projekcja zrekonstruowanego obrazu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkzPJ7ueoi_SJVYN6UO0-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CkzPJ7ueoi_SJVYN6UO0-47" target="CkzPJ7ueoi_SJVYN6UO0-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CkzPJ7ueoi_SJVYN6UO0-47" value="Połączenie zrekonstruowanych fragmentów obrazu w jedną całość" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkzPJ7ueoi_SJVYN6UO0-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CkzPJ7ueoi_SJVYN6UO0-49" target="CkzPJ7ueoi_SJVYN6UO0-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CkzPJ7ueoi_SJVYN6UO0-49" value="wsteczna projekcja" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CkzPJ7ueoi_SJVYN6UO0-51" value="&lt;div&gt;Monitor&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1060" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CkzPJ7ueoi_SJVYN6UO0-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CkzPJ7ueoi_SJVYN6UO0-53" target="CkzPJ7ueoi_SJVYN6UO0-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CkzPJ7ueoi_SJVYN6UO0-53" value="Przeskalowanie danych" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
