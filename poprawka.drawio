@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-25T15:57:48.637Z" agent="5.0 (Windows)" etag="V7cW6xqxeKfcsAJ5q16p" version="13.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-25T17:02:51.806Z" agent="5.0 (Windows)" etag="RFyLC-RfCjpM6kNJm41O" version="13.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1841" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,8 +34,71 @@
         <mxCell id="_5Sri1fP840JNtNylSVJ-8" value="&lt;div&gt;Transformata Fouriera&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-610" y="-810" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-10" target="_5Sri1fP840JNtNylSVJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_5Sri1fP840JNtNylSVJ-10" value="Dla każdego piksela w wierszu obliczana jest połowa wysokości obrazu w celu przyśpieszenia obliczeń" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-440" y="-830" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-12" target="_5Sri1fP840JNtNylSVJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-12" value="Obrót obrazu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-440" y="-690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-14" target="_5Sri1fP840JNtNylSVJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-14" value="Wyliczenie nowych współrzędnych dla k i l" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-440" y="-590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-16" target="_5Sri1fP840JNtNylSVJ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-16" value="&lt;div&gt;Czy&lt;/div&gt;&lt;div&gt; współrzędne &lt;br&gt;&lt;/div&gt;&lt;div&gt;wykraczają&lt;/div&gt;&lt;div&gt;poza obraz?&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-445" y="-490" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-18" target="_5Sri1fP840JNtNylSVJ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-18" value="Zsumowanie każdego wiersza pikseli obracanego i interpolowanego obrazu f(x,y)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-640" y="-477.5" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-20" target="_5Sri1fP840JNtNylSVJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-20" value="Zebranie danych z projekcji dla wszystkich kątów mxn macierzy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-640" y="-350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-22" target="_5Sri1fP840JNtNylSVJ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-22" value="Tworzenie macierzy roboczej i odczytanie sinogramu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-640" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-24" target="_5Sri1fP840JNtNylSVJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-24" value="Stworzenie filtru i filtracja w dziedzinie częstotliwości" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-460" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-26" target="_5Sri1fP840JNtNylSVJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-26" value="Rekonstrukcja filtrowanego sinogramu, dla każdego wiersza " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-300" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-28" target="_5Sri1fP840JNtNylSVJ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-28" value="Odwrotna transformata Fouriera" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-150" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-30" value="Obrót projekcji i dodanie do obrazu wynikowego" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-150" y="-170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-150" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
