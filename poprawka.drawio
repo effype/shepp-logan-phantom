@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-25T17:02:51.806Z" agent="5.0 (Windows)" etag="RFyLC-RfCjpM6kNJm41O" version="13.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-25T17:17:54.578Z" agent="5.0 (Windows)" etag="dmLxnAIdaXVK5giP_8aB" version="13.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1841" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1841" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -10,11 +10,10 @@
         <mxCell id="_5Sri1fP840JNtNylSVJ-0" value="&lt;div&gt;Pobranie danych&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-610" y="-1110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_5Sri1fP840JNtNylSVJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-2" target="_5Sri1fP840JNtNylSVJ-0">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_5Sri1fP840JNtNylSVJ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-320" y="-1110" width="120" height="60" as="geometry" />
+        <mxCell id="_5Sri1fP840JNtNylSVJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="_5Sri1fP840JNtNylSVJ-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-320" y="-1080" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_5Sri1fP840JNtNylSVJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-4" target="_5Sri1fP840JNtNylSVJ-6">
           <mxGeometry relative="1" as="geometry" />
@@ -94,11 +93,32 @@
         <mxCell id="_5Sri1fP840JNtNylSVJ-28" value="Odwrotna transformata Fouriera" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-150" y="-260" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-30" target="_5Sri1fP840JNtNylSVJ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_5Sri1fP840JNtNylSVJ-30" value="Obrót projekcji i dodanie do obrazu wynikowego" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-150" y="-170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_5Sri1fP840JNtNylSVJ-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-150" y="-90" width="120" height="60" as="geometry" />
+        <mxCell id="_5Sri1fP840JNtNylSVJ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-32" target="_5Sri1fP840JNtNylSVJ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-32" value="Połączenie zrekonstruowanych fragmentów obrazu w jedną całość" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-150" y="-80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-34" target="_5Sri1fP840JNtNylSVJ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-34" value="&lt;div&gt;Wsteczna projekcja&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-315" y="-80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_5Sri1fP840JNtNylSVJ-36" target="_5Sri1fP840JNtNylSVJ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-36" value="&lt;div&gt;Przeskalowanie danych&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-490" y="-80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_5Sri1fP840JNtNylSVJ-37" value="MONITOR" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-640" y="-90" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
